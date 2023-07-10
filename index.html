@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo ">
+        
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Nascido mutante, ele tem o poder de projetar pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="personagem ciclope">
+                </li>
+
+                <li class="personagem selecionado" id="jean-grey" data-name="Jean Grey" data-description="É uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="personagem jean-grey">      
+                </li>
+                <li class="personagem " id="lince-negra" data-name="Lince Negra" data-description="Possui uma habilidade (faseada) que lhe permite, assim como objetos ou pessoas com quem ela está em contato, tornar-se intangível. Esse poder também perturba qualquer campo elétrico que ela passa, e permite que ela possa andar no ar.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="lince-negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="É um mutante com a habilidade de manipular campos magnéticos à sua vontade e controlar objetos metálicos. Magneto foi um membro fundador dos X-Men, mas deixou o grupo para formar a Irmandade dos Mutantes.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="personagem magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="personagem noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade é membro de uma subespécie de humanos nascidos com habilidades sobre-humanas conhecidas como mutantes. Ela é capaz de controlar o clima e a atmosfera e é considerada uma dos mutantes mais poderosas do planeta.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="personagem tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Seu poder mutante é a habilidade de sugar a vitalidade, memória e poderes de outros seres vivos através do contato com a pele.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="personagem vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fator de cura que o faz envelhecer lentamente, o que o torna praticamente imortal e tem diversas características animais, como sentidos muito aguçados">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="personagem wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="personagem-selecionado">       
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Nascido mutante, ele tem o poder de projetar pura energia de seus olhos, através de raios de energia concussiva controlados por seu visor feito de quartzo-rubi. </p>
+            </div> 
+        </section>
+
+    </main>
+    <script src="./src/javascript/main.js"></script>
+</body>
+</html>
